@@ -17,7 +17,7 @@ print(data.columns)
 
 # Histogram for combined fuel efficiency (comb08)
 plt.figure(figsize=(10, 6))
-plt.hist(data['comb08'], bins=15, color='skyblue', edgecolor='black')
+plt.hist(data['comb'], bins=15, color='skyblue', edgecolor='black')
 plt.title('Distribution of Combined Fuel Efficiency (mpg)')
 plt.xlabel('Combined Fuel Efficiency (mpg)')
 plt.ylabel('Frequency')
